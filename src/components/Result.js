@@ -1,10 +1,10 @@
 import React from "react";
 
-const Result = (props) => {
+const Result = ({ input, output }) => {
   return (
     <div className="result">
-      <output className="input">{props.input}</output>
-      <output>{props.output}</output>
+      <output className="input">{input}</output>
+      <output>{output}</output>
     </div>
   );
 };
